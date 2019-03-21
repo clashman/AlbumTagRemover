@@ -3,4 +3,4 @@
 * Adds [foldername].m3u so that all music in a folder can be opened with a music player.
 
 # Usage
-./album_tagger.py ~/Music/folder [~/Music/more_folders]
+`./album_tagger.py ~/Music/folder [~/Music/more_folders]`
