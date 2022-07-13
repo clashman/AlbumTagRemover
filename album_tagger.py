@@ -24,8 +24,8 @@ for path in sys.argv[1:]:
             try:
                 song_path = os.path.join(dirpath, filename)
                 song = mutagen.id3.ID3(song_path)
-                #song.delall("TALB")
-                song.add(talb)
+                song.delall("TALB")
+                #song.add(talb)
                 song.save()
                 print()
             except:
