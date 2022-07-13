@@ -17,8 +17,8 @@ for path in sys.argv[1:]:
         album = os.path.basename(os.path.abspath(dirpath))
         talb = mutagen.id3.TALB(text=album)
         print("Walking {}:".format(dirpath))
-        print("added playlist")
-        writePlaylist(dirpath, filenames)
+        #print("added playlist")
+        #writePlaylist(dirpath, filenames)
         for filename in filenames:
             sys.stdout.write(" tagging {}".format(filename))
             try:
